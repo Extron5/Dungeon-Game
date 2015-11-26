@@ -1,0 +1,92 @@
+Week 1 
+we had 2 ideas for games for this assignment. One was a kart racer the other was a horrorish style game.
+We decided to go with the kart racing game which is the game i wanted to do, so im happy that we will be doing
+this game. Our designer (Natatlie) was suppose to create a power point for each game to show to the teachers,
+but she never onced asked for any input from anyone for the power point. When we asked if there was anything 
+she needed from us for it she said she was okay. When i finally got to see the power point it had little to nothing to
+do with the game we planned together. It seemed like she was just making up things because she wouldnt talk to us about anything.
+We decided to have a meeting with Natatlie, Karl and Robin about her under preforming and not having any input into the team.
+We went into the meeting with the idea of firing Natatlie so that we dont have to do her work for her, and hopefully be able to get a designer
+who will try and wants to be a part of the team. Once we got to the meeting Robin wasnt going to be in it because of reasons, and Karl had been
+talking to Natatlie about something and hence she was crying. Once we walked into the room Karl told us to give her another chance and not to fire 
+her because she said she will pick up her work and actually do things now. Then Karl said we should work on the power point and sort it out.
+So we spent the next ~2 hours pretty much doing the power point for Natatlie and giving her every single piece of info.
+The next day when we were going to do the presentation, the power points had the exact same slides as it had before but with some of the
+infomation we game her copied into those few slides she had. This week has not gone well, and i hope things get better as we 
+continue because if it doesnt i think we will have to fire Natatlie otherwise we will all start to get mad and annoyied 
+which wont be good for the actual game.
+
+Week 2
+This week i have been making the kart itself, i havnt been given any art yet so i ripped some models from the mario kart games.
+I made 3 different karts each with there own problems and goodthings. I tried finding some kinds of help online for the anti gravity 
+style karts, but to no luck. Aanikka and Zack keep asking me what they need to make first which i thought would be Natatlies job.
+But they asked her and she said to ask me, so im now doing her job aswell as my own. Natatlie is creating a grey box of a track we never even planned on using.
+
+Week 3
+I continued making the kart this week, i had to get help from john because i couldnt understand the maths behind the 3d rotation and 
+appling the custom gravity. After getting johns help with the kart i got it to a pretty good state which i am quite happy with, once i get the track
+i will adjust the kart to get it to run smoothly on the track. Natatlie finished her greyboxxing of her kart track, now she is asking me what she should be doing next.
+I am not quite sure what she should be doing with her time as i dont really understand whatdesigners are suppose to be doing for the project.
+I told her to just start drawing up basic ideas for menus and huds and stuff. I am getting really sick of Natatlie no knowing what she should be doing and just wasting time
+We talked amoung the rest of the team about her. Then spoke to Karl about her still not doing much at all, he said he will have a talk with her.
+I wish we could just fire her while there is still time in the project. Because i am having to spend a fair bit of my time making up things for her to do
+ and baby sitting her making sure she actually is doing some form of work. This whole project so far is going pretty bad, i have been looking forward to this 
+project all year and having a team that wants to make a game they can be proud of and show people. But im really hating it so far and just want it to be done. 
+Its really killing my desire to even have effort to make games as a job anymore. If people are doing this course they should want to actually want to make 
+games just not sit around doing nothing. If this is what it is actually like in the industry where people are just doing this job for money, and not for the joy 
+of creating a games. I dont think i want to do it anymore.
+
+Week 4
+We had yet another meeting but this time with john and adam. The meeting was about the team being organized and having
+documents about the game. Which as far as i know was Natatlies job, we came out of the meeting with a bit of a 
+understanding of what we need to do, and Natatlie said she would upload the design document within so we can have a look
+at it. I also got like the 4th edition of the track which is still really un even and bumpy. The track also sticks into
+the table in 2 places, when i told Zack to fix those places he said it was fine and didnt believe me that it was sinking 
+into the table and asking if it really matters if the track is smooth. I think he is starting to get annoyed a fair bit
+because he doesnt quite understand what he is doing in maya really. He used a spline tool to create the spiral
+for the track but when it rotated part of it, instead of trying to fix it or ask anyone for help he just left it and
+made a really weird and stupid shape for the track. When we asked about it he said it was the only way he could do it.
+Because i didnt really know much about modeling i just accepted it. Later i found out he had just been lazy/didnt know.
+By the end of the week i had AI driving around the track pretty smoothly and to my likings, apart from afew small problems.
+I had also created a basic item which worked the same as the karts but just bounced around the track.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
