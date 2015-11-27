@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections;
 
-public class CubicBezier3D : MonoBehaviour {
+public class CubicBezier3D 
+{
 
+    [Serializable]
     public struct OrientedPoint
     {
         public Vector3 position;
@@ -28,20 +31,6 @@ public class CubicBezier3D : MonoBehaviour {
         {
             return rotation * dir;
         }
-    }
-
-    OrientedPoint[] op;
-
-    // Use this for initialization
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     // Optimized GetPoint

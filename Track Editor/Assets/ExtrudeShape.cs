@@ -1,13 +1,15 @@
 ﻿using UnityEngine;
+using System;
 using System.Collections.Generic;
 
 public class ExtrudeShape : MonoBehaviour {
 
     // Use this for initialization
+    [Serializable]
     public struct vert2D
     {
-        public Vector2[] point;
-        public Vector2[] normal;
+        public Vector3 point;
+        public Vector3 normal;
         public float uCoord;
     }
     public List<vert2D> vert2Ds;

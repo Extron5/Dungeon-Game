@@ -1,22 +1,43 @@
 ﻿using UnityEngine;
-using System.Collections;
+using System.Collections.Generic;
 
+[ExecuteInEditMode]
 public class Mesh3D : MonoBehaviour
 {
+    private Mesh mesh2;
+    public ExtrudeShape shape;
 
     // Use this for initialization
     void Start()
     {
-
+        mesh2 = new Mesh();
+        GetComponent<MeshFilter>().mesh = mesh2;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        List<CubicBezier3D.OrientedPoint> points = new List<CubicBezier3D.OrientedPoint>();
+        for (int i = 0; i < transform.childCount; i++)
+        {
+            if (transform.GetChild(i).GetComponent<ExtrudeShape>() == null)
+            {
+                CubicBezier3D.OrientedPoint point = new CubicBezier3D.OrientedPoint();
+                
+                point.position = transform.GetChild(i).position;
+                point.rotation = transform.GetChild(i).rotation;
+                points.Add(point);
+            }
+        }
+        Extrude(mesh2, shape, points.ToArray());
     }
-    public void Extrude(Mesh mesh, ExtrudeShape shape, OrientedPoint[] path)
+
+    public void Extrude(Mesh mesh2, ExtrudeShape shape, CubicBezier3D.OrientedPoint[] path)
     {
+        MeshFilter mf = GetComponent<MeshFilter>();
+        if (mf.sharedMesh == null)
+            mf.sharedMesh = new Mesh();
+        Mesh mesh = mf.sharedMesh;
 
         int vertsInShape = shape.vert2Ds.Count;
         int segments = path.Length - 1;
@@ -32,12 +53,7 @@ public class Mesh3D : MonoBehaviour
 
         /* Generation code goes here */
 
-        mesh.Clear();
-        mesh.vertices = vertices;
-        mesh.triangles = triangleIndices;
-        mesh.normals = normals;
-        mesh.uv = uvs;
-
+        
         for (int i = 0; i < path.Length; i++)
         {
             int offset = i * vertsInShape;
@@ -68,5 +84,13 @@ public class Mesh3D : MonoBehaviour
                 triangleIndices[ti] = a; ti++;
             }
         }
+
+        mesh.Clear();
+        mesh.vertices = vertices;
+        mesh.triangles = triangleIndices;
+        mesh.normals = normals;
+        mesh.uv = uvs;
+
     }
+
 }
